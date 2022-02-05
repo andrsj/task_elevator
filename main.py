@@ -4,10 +4,10 @@ import logging
 from elevator.functions import HouseGenerator, HouseHandler
 
 
-MAX_VALUE = 5
-START_FLOUR = 1
+MAX_VALUE = 5  # Can be moved to other file (like config.py or const.py) but it's not necessary
+START_FLOUR = 1  # Start from first flour
 
-logging.basicConfig(level=logging.ERROR)
+logging.basicConfig(level=logging.ERROR)  # I just used only INFO logging, so...
 
 
 def main():
